@@ -1,0 +1,18 @@
+/* pages/search/search.wxss */
+
+.content{
+  width: 94%;
+  margin: 40rpx auto;
+
+}
+
+text{
+  padding: 12rpx;
+  font-size: 40rpx;
+}
+button{
+  border:none;
+}
+.web{
+  font-size: 30rpx;
+}

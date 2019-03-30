@@ -1,0 +1,56 @@
+.nav{
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.nav-bar{
+  margin: 12rpx;
+  padding-bottom: 4rpx;
+}
+.cur{
+  border-bottom: 2px solid rgb(0, 112, 163);
+  color: rgb(0, 112, 163);
+}
+
+.content-wrapper swiper{
+  height: 500rpx;
+}
+
+
+.box{
+  width: 94%;
+  margin: 0 auto;
+}
+.test{
+  text-align: center;
+  padding: 20rpx;
+  font-size: 38rpx;
+  background: white;
+  border-radius: 12rpx;
+  margin-top: 20rpx;
+}
+.bg{
+  width: 100%;
+  height: 500rpx;
+}
+.red{
+  background: red;
+}
+.green{
+  background: greenyellow;
+}
+.pink{
+  background: pink;
+}
+
+#choosetest{
+  width: 94%;
+  text-align: center;
+  font-size: 30rpx;
+  background: white;
+  margin: 0 auto;
+  padding: 20rpx 0;
+  margin-top: 20rpx;
+  border-radius: 12rpx;
+}

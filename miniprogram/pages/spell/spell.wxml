@@ -1,0 +1,12 @@
+<view class="content">
+  <text>{{show}}</text>
+</view>
+<view class="box">
+  <view class="item" wx:for="{{answer}}" wx:key bindtap="judge">
+    <view data-a="{{item}}">{{item}}</view>
+  </view>
+</view>
+
+<view class='btn-group'>
+  <button bindtap="next">下一个</button>
+</view>

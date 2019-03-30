@@ -1,0 +1,50 @@
+<view class="header">
+  <view class="avatar">
+    <text wx:if="{{notlogin}}" style="margin-left:40rpx">未登录</text>
+    <image class="img" src="{{img}}"></image>
+  </view>
+  <view class="search-word">
+    <button class="btn search" bindtap="search">查词</button>
+  </view>
+</view>
+
+
+<view class="container">
+  <view class="top">
+    <view class="schedule">
+      <view class="remain">
+        <text class="con-text font-sizes">剩余</text>
+        <text class="text-center">{{remaindays}}天</text>
+      </view>
+      <view style="flex:1"></view>
+      <view class="words">
+        <text class="con-text font-sizes">今日单词</text>
+        <text class="text-center">{{day}}个</text>
+      </view>
+    </view>
+  </view>
+  <view class="middle">
+    <view class="bookcategory">
+      <text class="font-sizes">{{book}}</text>
+      <text class="change-plan font-sizes">修改计划</text>
+    </view>
+  </view>
+
+  <view class="bottom middle">
+    <view class="already">
+      <text>已复习</text>
+      <text>{{already}}/4500</text>
+    </view>
+    <view class="progress">
+      <progress percent="{{precent}}" show-info class="font-sizes" />
+    </view>
+  </view>
+</view>
+
+
+<view class="btn-group">
+  <button class="text-color" bindtap="startWords">开始背单词</button>
+  <button class="margin-top text-color" bindtap="reading">爱阅读</button>
+  <button class="margin-top text-color" bindtap="toPlan">制定计划</button>
+
+</view>

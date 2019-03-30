@@ -1,0 +1,13 @@
+<view class="play"> 
+  <button bindtap="play">播放</button>
+</view>
+<view class="content">
+  <view wx:for="{{random}}" wx:key>
+    <view class="item" bindtap="judge" data-id="{{item._id}}">{{item.meaning}}</view>
+  </view>
+</view>
+<view class="btn-group">
+  <button bindtap="next">下一个</button>
+</view>
+
+

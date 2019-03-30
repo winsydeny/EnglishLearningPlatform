@@ -1,0 +1,30 @@
+/* pages/me/me.wxss */
+
+.login{
+  color:#44B549;
+}
+
+.avatar{
+  width: 120rpx;
+  margin: 0 auto;
+}
+
+.avatar image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-top: 100rpx;
+  border-radius: 50%;
+}
+.username{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.username text{
+  font-size: 60rpx;
+  width: 100%;
+  padding: 20rpx;
+}

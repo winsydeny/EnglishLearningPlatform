@@ -1,0 +1,12 @@
+<view class="content">
+    <text>{{words[currentNum].word}}</text>
+</view>
+
+<view class="number">第{{number}}个</view>
+<view class="answers-box" bindtap="getCurrentAnswer">
+  <view class="btn-group chioce" wx:for="{{words}}" wx:key="item.index">
+  <button class="answers" data-id="{{item._id}}">{{item.meaning}}</button>
+  </view>
+</view>
+
+  <view><button class="btn-group next" bindtap="next">下一个</button></view>

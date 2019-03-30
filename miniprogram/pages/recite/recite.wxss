@@ -1,0 +1,18 @@
+/* pages/recite/recite.wxss */
+
+.container{
+  height: 100%;
+  width: 90%;
+  /* border:1rpx solid green; */
+  background:  #44B549;
+  color:white;
+  text-align: center;
+  font-size: 30rxp;
+  line-height: 700rpx;
+}
+.card-swiper{
+  height: 800rpx;
+}
+.text{
+  font-size: 80rpx;
+}

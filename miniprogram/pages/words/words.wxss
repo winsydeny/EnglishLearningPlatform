@@ -1,0 +1,34 @@
+/* pages/words/words.wxss */
+
+.content{
+  width: 90%;
+  margin: 0 auto;
+}
+.content text{
+  width: 100%;
+  display: block;
+  padding: 200rpx 0;
+  text-align: center;
+}
+
+.chioce{
+  margin-top: 18rpx;
+}
+
+.answers-box{
+  
+}
+.number{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 26rpx;
+  color: blueviolet;
+}
+
+
+.next{
+  margin-bottom: 30rpx;
+   color: #44B549;
+}

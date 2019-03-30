@@ -1,0 +1,37 @@
+<view>
+ <view class="cu-form-group">
+    <view class='title'>书籍选择</view>
+    <picker bindchange="choose" range="{{books}}" >
+      <view class="picker">
+        {{chooseBook}}
+      </view>
+    </picker>
+  </view>
+
+  <view class="cu-form-group">
+    <view class='title'>开始时间</view>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="DateChange">
+      <view class="picker">
+        {{date}}
+      </view>
+    </picker>
+  </view>
+  <view class="cu-form-group">
+    <view class='title'>每日目标</view>
+    <input placeholder="请输入" class='radius' name='input' bindinput="dayGoal"></input>
+  </view>
+
+
+  <!-- <view class="cu-form-group">
+    <view class='title'>结束时间</view>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="DateChange">
+      <view class="picker">
+        {{date}}
+      </view>
+    </picker>
+  </view> -->
+</view>
+
+<view class="btn-group">
+  <button class="margin-top text-color" bindtap="finished">完成</button>
+</view>

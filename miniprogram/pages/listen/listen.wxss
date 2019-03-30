@@ -1,0 +1,33 @@
+/* pages/listen/listen.wxss */
+
+
+.content{
+  width: 90%;
+  background: white;
+  margin: 0 auto;
+  padding: 20rpx 30rpx;
+  margin-top: 8rpx;
+  border-radius: 12rpx;
+}
+
+.question{
+  color: red;
+
+
+}
+.tips{
+  font-size: 50rpx;
+  width: 90%;
+  margin: 0 auto;
+}
+.ans{
+  padding-left: 40rpx;
+}
+.selected{
+  border:1rpx solid green;
+}
+
+input{
+  display:block;
+height:94rpx;
+}

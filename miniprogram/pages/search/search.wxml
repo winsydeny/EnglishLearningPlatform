@@ -1,0 +1,24 @@
+<view class="cu-form-group">
+    <!-- <view class='title'>每日目标</view> -->
+    <input placeholder="请输入要查询的单词" class='radius' name='input' bindinput='inputOk'></input>
+    <button bindtap="search">查询</button>
+  </view>
+
+  <view class="content" wx:if="{{isShow}}">
+    <view>
+    <text>{{translation}}</text>
+  </view>
+  <view>
+    <text>网络名词:</text>
+    <view wx:for="{{web}}" wx:key>
+      <text class="web">{{item.key}}</text>
+      <text class="web">{{item.value}}</text>
+    </view>
+  </view>
+  </view>
+
+
+<view class='load-progress {{loadProgress!=0?"show":"hide"}}' style="top:{{CustomBar}}px;">
+  <view class='load-progress-bar bg-green' style="transform: translate3d(-{{100-loadProgress}}%, 0px, 0px);"></view>
+  <!-- <view class='load-progress-spinner text-green'></view> -->
+</view>

@@ -1,0 +1,55 @@
+<view class="tittle"><text>Experiencing Scotland</text></view>
+<view>
+　　Scotland is a unique and austere1 place, laden2 with history, where you can find aristocratic palaces and castles, as well as the traditional parade in national costumes. It has some of the most beautiful cities in Europe, a living testimony of a proud and splendid past.
+</view>
+<view>
+　　In order to see the true soul of Scotland today, what forged the character of this splendid region, we have to go towards the northern regions, to the Grampia Mountains.Beautiful and unspoiled, it was difficult to farm. The Scots subdued the environment with simple spades and strong arms.
+</view>
+<view>
+　　The history of this ancient struggle, and its people's ancient love affair with the hard land, is enclosed within the walls of the Angus Folk Museum. You are able to get a feel of the typical rural atmosphere of times past from the everyday artifacts displayed here .
+</view>
+<view>
+　　From coastal Aberdeen in towards the interior of the Grampian Mountains there runs the Castle Trail, a road that touches on many fortresses, which are witness of continual revolts against the dominion of neighboring England in Scottish history.
+</view>
+<view>
+　　Perhaps the most uplifting moment for Scottish autonomy is the one experienced inside this ancient abbey of Arbroath, where, in 1320; the Declaration of Independence was celebrated, at the instigation of King Robert the Bruce. He carried out the plan for autonomy drawn up3 by the great popular hero William Wallace, to whom cinema has dedicated the wonderful film" Brave Heart", the winner of five Oscars.
+</view>
+<view>
+　　Glamis Castle is often remembered for being the residence of King Macbeth and Queen ElizabethⅡin her childhood. Among the most assiduous guests here are the inevitable ghosts, created by ancient popular beliefs.
+</view>
+<view>
+　　The true flag of Scotland is tartan, its brightly colored plaid patterns which are used to distinguish the various clans. Over the last few decades this fabric has made a comeback and is part of the daily life of this country.
+</view>
+
+
+<view wx:if="{{!trans}}">
+<text>翻译:</text>
+<view>
+<view>
+苏格兰是一个独特的地方, 简约而不失历史厚重感。豪门望族的府邸和城堡, 以及穿着民族服装的传统仪仗队随处可见。苏格兰的一些城市是欧洲最美丽的, 生动再现了它骄人而又辉煌的过去。
+</view>
+<view>
+　　今天, 为了理解苏格兰的精髓, 寻找形成这片神奇土地特征的根源, 我们就得去北部,去格兰扁群山。那里景色宜人, 保持着自然本色, 但不适宜耕种。苏格兰人硬是凭着简陋的工具和强壮的臂膀征服了环境。
+</view>
+<view>
+　　人们艰苦劳作的历史和自古以来对这片土地的眷恋, 都记录在安格斯民俗博物馆里。从馆里陈列的日常手工器具中, 你能感受到独特的旧时乡村氛围。
+</view>
+<view>
+　　古堡之路从沿海的阿伯丁一直延伸到格兰扁山区的深处。沿途的许多要塞见证了苏格兰不断反抗近邻英格兰统治的历史。
+</view>
+<view>
+　　苏格兰争取自治的过程中, 最振奋人心的时刻莫过于1320 年在古老的阿布罗修道院里的那次经历。在罗伯特· 布鲁士的鼓动下, 人们庆祝独立宣言的发表。布鲁士成功实现了伟大英雄威廉· 华莱士制定的自治计划。华莱士的事迹被拍成了精彩的电影《勇敢的心》, 该片荣获五项奥斯卡奖。
+</view>
+<view>
+　　格拉母斯城堡闻名遐迩, 因为国王麦克白和幼年时的伊丽莎白二世女王曾经在这里居 住过。这里最频繁光临的客人要属那些挥之不去的幽灵, 但它们多半是根据古代民间传说杜撰出来的。
+</view>
+<view>
+　　苏格兰的标志是格子呢。其色彩鲜明的图案曾经是区别不同宗族的标志。过去的几 十年里, 格子呢再度兴起, 成了这个国家日常生活的一部分。
+</view>
+</view>
+</view>
+
+
+<view class="btn-gropu" v-show="{{trans}}">
+  <button bindtap="translate">点击查看翻译</button>
+</view>

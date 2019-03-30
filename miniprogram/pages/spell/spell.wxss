@@ -1,0 +1,33 @@
+/* pages/spell/spell.wxss */
+
+.content{
+  width: 90%;
+  margin: 0 auto;
+}
+.content text{
+  width: 100%;
+  display: block;
+  padding: 200rpx 0;
+  text-align: center;
+  font-size: 50rpx;
+}
+.box{
+  overflow: hidden;
+  margin:  0 auto;
+  width: 426rpx;
+}
+.item{
+  width: 130rpx;
+  height: auto;
+  padding: 20rpx 0;
+  margin: 6rpx;
+  font-size: 30rpx;
+  background: rgba(143, 139, 139,.3);
+  font-weight: bolder;
+  color: rgb(4, 178, 190);
+  border-radius: 12rpx;
+  /* border: 1rpx solid; */
+  float: left;
+  text-align: center;
+  /* margin-left: 20rpx; */
+}

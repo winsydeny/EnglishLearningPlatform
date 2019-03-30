@@ -1,0 +1,34 @@
+<view class="nav">
+  <view wx:for="{{tabs}}" bindtap="tabSelect" data-id="{{index}}" class="nav-bar {{currentIndex === index?'cur':''}}" wx:key>{{item}}</view>
+</view>
+<view class="content-wrapper">
+  <swiper current="{{currentIndex}}">
+    <swiper-item >
+      <view class="box" id="listentest">
+        <view class="test" bindtap="tolisten" data-year="201806" data-type="4"><text>2018年6月 英语听力真题</text></view>
+        <view class="test" bindtap="tolisten" data-year="201706" data-type="4"><text>2017年6月 英语听力真题</text></view>
+        <view class="test" bindtap="tolisten" data-year="201712" data-type="4"><text>2017年12月 英语听力真题</text></view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+     <view id="choosetest" class="container" bindtap="listenfind"><text class="text">听音选意</text></view>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- <view class="box" id="listentest">
+  <view class="test" bindtap="tolisten" data-year="201806" data-type="4"><text>2018年6月 英语听力真题</text></view>
+  <view class="test" bindtap="tolisten" data-year="201706" data-type="4"><text>2017年6月 英语听力真题</text></view>
+  <view class="test" bindtap="tolisten" data-year="201712" data-type="4"><text>2017年12月 英语听力真题</text></view>
+</view> -->
+
+<!-- <view id="choosetest" class="container" bindtap="listenfind"><text class="text">听音选</text></view>
+ -->
+
+<!-- <view class="box">
+  <view class="test" bindtap="tolisten" data-year="201806" data-type="4"><text>2018年6月 英语听力真题</text></view>
+  <view class="test" bindtap="tolisten" data-year="201706" data-type="4"><text>2017年6月 英语听力真题</text></view>
+  <view class="test" bindtap="tolisten" data-year="201712" data-type="4"><text>2017年12月 英语听力真题</text></view>
+  <!-- <view><text>2018年6月</text></view> -->
+
+

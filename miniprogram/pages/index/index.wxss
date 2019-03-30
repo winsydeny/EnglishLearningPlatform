@@ -1,0 +1,84 @@
+.header{
+  display: flex;
+  margin-bottom: 18rpx;
+}
+.avatar{
+  width: 80%;
+}
+.img{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-left: 24rpx;
+  margin-top: 12rpx;
+}
+.search-word{
+  position: relative;
+}
+.search{
+  border: 1rpx solid green;
+  color: green;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.container{
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  background: rgba(211, 209, 209, 0.4);
+  border-radius: 24rpx;
+}
+
+.top{
+  padding:40rpx 100rpx;
+}
+.schedule{
+  display: flex;
+}
+.remain{
+  display: block;
+  width: 80rpx;
+  height: auto;
+  /* background: goldenrod; */
+}
+
+.con-text{
+  
+}
+
+.words{
+  display: block;
+  width: 150rpx;
+  height: auto;
+  /* background: goldenrod; */
+}
+.middle{
+  padding: 10rpx 40rpx;
+
+}
+.bookcategory{
+  padding-bottom: 50rpx;
+  border-bottom: 1rpx solid rgba(66, 66, 66,.3);
+}
+.change-plan{
+  float: right;
+  border: 1rpx solid rgba(128, 128, 128, 0.562);
+  border-radius: 23rpx;
+  padding: 8rpx 18rpx;
+}
+
+
+.bottom{
+  margin-top: 16rpx;  
+  padding-bottom: 30rpx;
+}
+.already{
+  margin-bottom: 14rpx;
+}
+
+.margin-top{
+  margin-top: 20rpx;
+}

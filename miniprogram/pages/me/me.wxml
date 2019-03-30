@@ -1,0 +1,11 @@
+<view>
+  <view class="login" wx:if="{{!logined}}">
+    <button class="btn-group login" open-type="getUserInfo" bindgetuserinfo="login">微信登录</button>
+  </view>
+
+  <view class="user">
+    <view class="avatar"><image src="{{userinfo.avatarUrl}}"></image></view>
+    <view class="username"><text>{{userinfo.nickName}}</text></view>
+  </view>
+
+</view>

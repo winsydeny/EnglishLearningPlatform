@@ -1,0 +1,37 @@
+<view class="load"><text>LoadAudio</text></view>
+
+<button bindtap="start">开始录音</button>
+<button bindtap="stop">结束录音</button>
+<button bindtap="add">添加问题</button>
+<!-- <view class="add"> -->
+<form class="add"  bindsubmit="submit">
+ <view wx:for="{{num}}" wx:key>
+       <view>
+      <text>Question:</text>
+      <input type="text" class="input"  name="question{{index}}" ></input>
+  </view>
+  <view>
+      <text>Chioce:</text>
+      <view class="choose">
+        <text>A:</text><input class="input" type="text" name="A{{index}}"></input>
+        <text>B:</text><input class="input" type="text" name="B{{index}}"></input>
+        <text>C:</text><input class="input" type="text" name="C{{index}}"></input>
+        <text>D:</text><input class="input" type="text" name="D{{index}}"></input>
+      </view>
+      <view>
+      <text>正确答案:</text>
+       <!-- <checkbox value="A">A</checkbox> -->
+       <input class="input" type="text" name="answer{{index}}"></input>
+      </view>
+      <!-- <picker range="{{chioce}}" bindchange="bindPicker" name="answer{{index}}"><text>选择正确答案:{{pickerchoose}}</text></picker> -->
+  </view>
+ </view>
+  <!-- <button>upload</button> -->
+     <button form-type="submit">upload</button>
+</form>
+<!-- </view> -->
+
+
+<!-- <button bindtap="upload">上传</button> -->
+
+<!-- <button bindtap="load">开始录音</button> -->

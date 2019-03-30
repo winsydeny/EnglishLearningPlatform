@@ -1,0 +1,14 @@
+/* pages/reading/reading.wxss */
+
+.tittle{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30rpx;
+}
+view{
+  padding: 8rpx;
+  width:94%;
+  margin:0 auto;
+  font-size:34rpx;
+
+}

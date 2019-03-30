@@ -1,0 +1,59 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/reading/reading",
+    
+    "pages/search/search",
+    "pages/recite/recite",
+    "pages/loadAudio/loadAudio",
+    
+    "pages/chooselisten/chooselisten",
+    "pages/listen/listen",
+    "pages/spell/spell",
+    "pages/toEnglish/toEnglish",
+    
+
+    "pages/listenfind/listenfind",
+    "pages/finish/finish",
+    "pages/words/words",
+    "pages/schedule/schedule",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "英语学习平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_cur.png"
+    },
+    {
+      "pagePath": "pages/recite/recite",
+      "text": "Recite",
+      "iconPath": "images/recite.png",
+      "selectedIconPath": "images/recite_cur.png"
+    },
+    {
+      "pagePath": "pages/chooselisten/chooselisten",
+      "text": "Listen",
+      "iconPath": "images/listen.png",
+      "selectedIconPath": "images/listen_cur.png"
+    },
+    {
+      "pagePath": "pages/me/me",
+      "text": "Me",
+      "iconPath": "images/me.png",
+      "selectedIconPath": "images/me_cur.png"
+    }
+    
+    ]
+  }
+}
