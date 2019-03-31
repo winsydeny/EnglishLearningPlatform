@@ -1,10 +1,10 @@
 <swiper class="card-swiper {{DotStyle?'square-dot':'round-dot'}}">
-  <swiper-item>
+  <!-- <swiper-item>
     <view class="container" bindtap="listen"><text class="text">听力</text></view>
-  </swiper-item>
-  <swiper-item>
+  </swiper-item> -->
+  <!-- <swiper-item>
     <view class="container" bindtap="alreadywords"><text class="text">已背过{{finished}}个单词</text></view>
-  </swiper-item>
+  </swiper-item> -->
    <swiper-item>
     <view class="container" bindtap="toenglish"><text class="text">中文选词</text></view>
   </swiper-item>

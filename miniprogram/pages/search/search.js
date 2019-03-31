@@ -1,3 +1,4 @@
+const audio = require('../../utils/audio.js')
 Page({
   data: {
     word: '',
@@ -62,5 +63,10 @@ Page({
       })
     }
     return stop;
+  },
+  play () {
+    const url = `http://dict.youdao.com/dictvoice?type=2&audio=${this.data.word}`;
+    const a = audio(url);
+    a.play();
   }
 })

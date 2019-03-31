@@ -11,6 +11,15 @@ Page({
   },
   onLoad () {
     let user = wx.getStorageSync('userinfo');
+    let daygoal = wx.getStorageSync('plan').daygoal;
+    let already = wx.getStorageSync('process').already;
+    console.log(parseInt(daygoal),already);
+    if(parseInt(daygoal) > already){
+      wx.showModal({
+        title: 'tips',
+        content: `今日还有${daygoal - already}个单词未背`,
+      })
+    }
     if(!user){
       wx.showModal({
         title: 'Tips',
@@ -45,17 +54,11 @@ Page({
         }
         //calculate remian days from daily plan
         let remain = parseInt(total / parseInt(plan.daygoal));
-        console.log(remain)
+        // console.log(remain)
         this.setData({ book: plan.chooseBook, day: plan.daygoal, remaindays: remain });
       } 
-
-
     }
-
-    
-    
   },
-
   //update data 
   onShow () {
     let pro = wx.getStorageSync('process');
@@ -73,7 +76,7 @@ Page({
 
 
    
-    console.log( 'presss--',parseFloat(pre.toFixed(2)));
+    // console.log( 'presss--',parseFloat(pre.toFixed(2)));
     // console.log(plan);
     this.setData({
       already:pro.already,
